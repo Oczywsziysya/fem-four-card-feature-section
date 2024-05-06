@@ -79,23 +79,23 @@ header > .header__description {
 
 /* CARDS SECTION STYLING */
 main {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        'supervisor team-builder calculator'
+        'supervisor karma calculator';
+    align-items: center;
     max-width: 1100px;
     gap: 30px;
     margin-bottom: 70px;
-    flex-wrap: wrap;
     margin-inline: 15px;
-}
-
-main > * {
-    flex-basis: 346.6px;
-    align-self: center;
 }
 
 
 /* COMMON STYLING FOR ALL CARDS */
 .cards {
+    max-width: 346.66px;
     background-color: var(--white-color);
     border-radius: 5px;
     padding: 30px;
@@ -131,33 +131,24 @@ main > * {
 /* ------------------------------------------------------- */
 
 
-/* TEAM-KARMA-WRAPPER STYLING (created to support especifically the desktop version)*/
-.main__cards__team-karma-wrapper {
-    display: flex;
-    gap: 30px 30px;
-    flex-wrap: wrap;
-}
-
-.main__cards__team-karma-wrapper > * {
-    flex-basis: 346.6px;
-}
-/* ------------------------------------------------------- */
-
-
 /* INDIVIDUAL STYLING FOR EACH CARD */
 .main__cards__supervisor {
+    grid-area: supervisor;
     border-top: 4px solid var(--cyan-color);
 }
 
 .main__cards__team-builder {
+    grid-area: team-builder;
     border-top: 4px solid var(--red-color);
 }
 
 .main__cards__karma {
+    grid-area: karma;
     border-top: 4px solid var(--orange-color);
 }
 
 .main__cards__calculator {
+    grid-area: calculator;
     border-top: 4px solid var(--blue-color);
 }
 /* ------------------------------------------------------- */
@@ -166,25 +157,29 @@ main > * {
 
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1130px) {
-    .main__cards__team-karma-wrapper {
-        justify-content: center;
-        flex-basis: auto;
-        order: 1;
+    main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+            'supervisor team-builder'
+            'karma calculator';
     }
-    /* had to change the order so that the team-karma-wrapper will be the last 
-    flex item inside main, otherwise the tablet layout will end up completely 
-    crippled */
 }
 
-@media only screen and (max-width: 753.2px) {
+@media only screen and (max-width: 730px) {
     header {
         padding-inline: 30px;
     }
 
-    .main__cards__team-karma-wrapper {
-        order: 0;
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+            'supervisor'
+            'team-builder'
+            'karma'
+            'calculator';
     }
-    /* team-karma-wrapper back to the normal order */
 }
 
 /* MINOR TYPOGRAPHY ADJUSTMENTS FOR BETTER EXPERIENCE */

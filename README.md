@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Four card feature section solution (Grid version)
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 ## Table of contents
@@ -48,19 +48,18 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 
-This project forced me to try to get the most out of Flexbox. Yes, I know Grid would be ideal for this one and I'll definitely get to it in the near future, but I really wanted to see what are the limitations of Flexbox and I think the best way to do it is by using Flexbox to build a layout for which Grid would be better, get the most out of its features and then try to solve the problems that will arise (they *definitely* will).
+Yesterday I made the Flexbox version of this project. This branch contains my solution after learning the basics of CSS Grid!
 
-As far as layout is concerned, the desktop and cellphone version look almost perfect. The tablet version is good too, one small issue: the cards' order should be a *little* different, but I couldn't think of a way to do this with Flexbox... The order is correct for desktop and cellphone, though.
-
-For this one I also had to use more media-queries than before, mainly because of the font-size for the header, but I feel like this wouldn't be necessary if I used relative length units instead of pixels? In the next project I'll finally try to handle font-sizes differently.
+In the Flexbox version, the cards' order for the tablet version was incorrect because I wasn't able to fix it using only Flexbox, but now that I used Grid the problem is gone, the order is correct! And it looks *exactly* the same, I just changed some media-query breakpoints a tiny bit, but the rest didn't change. Now that I'm much more aware of the limitations of Flexbox, I can appreciate Grid even more! 
 
 ### Continued development
 
 * Write cleaner and concise CSS code.
-* It's time to learn Grid, I can't run away from it anymore XD.
+* Go beyond the basics and learn more advanced CSS Grid techniques.
 * Learn to use stuff like rem/em/clamp() for responsive typography.
 * Get better at responsive layouts.
 
