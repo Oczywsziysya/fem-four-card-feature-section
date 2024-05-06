@@ -1,4 +1,4 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Four card feature section solution (Flexbox version)
 
 This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
 ## Table of contents
@@ -13,6 +13,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+    - [2024/06/06](#20240606)
+    - [2024/06/05](#20240605)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -50,6 +52,11 @@ Users should be able to:
 - Flexbox
 
 ### What I learned
+
+#### 2024/06/06
+The Grid version of this project is ready, check the [https://github.com/Oczywsziysya/fem-four-card-feature-section/tree/grid-version]('grid-version' branch).
+
+#### 2024/05/06
 
 This project forced me to try to get the most out of Flexbox. Yes, I know Grid would be ideal for this one and I'll definitely get to it in the near future, but I really wanted to see what are the limitations of Flexbox and I think the best way to do it is by using Flexbox to build a layout for which Grid would be better, get the most out of its features and then try to solve the problems that will arise (they *definitely* will).
 
