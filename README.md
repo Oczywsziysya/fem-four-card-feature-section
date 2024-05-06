@@ -54,7 +54,7 @@ Users should be able to:
 ### What I learned
 
 #### 2024/06/06
-The Grid version of this project is ready, check the [https://github.com/Oczywsziysya/fem-four-card-feature-section/tree/grid-version]('grid-version' branch).
+The Grid version of this project is ready, check the ['grid-version' branch](https://github.com/Oczywsziysya/fem-four-card-feature-section/tree/grid-version).
 
 #### 2024/05/06
 
