@@ -39,7 +39,9 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://oczywsziysya.github.io/fem-four-card-feature-section](https://oczywsziysya.github.io/fem-four-card-feature-section)
+- Live Site URL (Flexbox version): [https://oczywsziysya.github.io/fem-four-card-feature-section](https://oczywsziysya.github.io/fem-four-card-feature-section)
+
+There's no deploy for the Grid version yet.
 
 ## My process
 
