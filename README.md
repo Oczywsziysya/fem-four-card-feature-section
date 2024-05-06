@@ -54,7 +54,7 @@ There's no deploy for the Grid version yet.
 
 ### What I learned
 
-Yesterday I made the Flexbox version of this project. This branch contains my solution after learning the basics of CSS Grid!
+Initially I made a Flexbox version of this project. This branch contains my solution after learning the basics of CSS Grid!
 
 In the Flexbox version, the cards' order for the tablet version was incorrect because I wasn't able to fix it using only Flexbox, but now that I used Grid the problem is gone, the order is correct! And it looks *exactly* the same, I just changed some media-query breakpoints a tiny bit, but the rest didn't change. Now that I'm much more aware of the limitations of Flexbox, I can appreciate Grid even more! 
 
